@@ -19,6 +19,6 @@ body {
 }
 
 /* nav styling */
-.navbar {
-  background-color: blue;
+#navbar-custom {
+  background-color: purple;
 }
