@@ -1,0 +1,55 @@
+/* Custom fonts */
+* {
+  font-family: 'Encode Sans', sans-serif;
+}
+
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+
+/* Jumbotron styling */
+.jumbotron {
+  background: linear-gradient(rgba(0, 15, 200, 0.5),rgba(0, 15, 200, 0.5)),
+              url(../images/facilitator.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  color: white;
+}
+
+/* nav styling */
+#navbar-custom {
+  background-color: #854B9A;
+}
+
+body {
+}
+
+
+/* testimonials card styling */
+#testimonials-card {
+  height:
+}
+
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
