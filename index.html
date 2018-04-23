@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Elizabeth Lank - Facilitator</title>
+    <title>Michael Greig - UX Designer</title>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
@@ -16,8 +16,8 @@
 
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="navbar-custom">
-      <a class="navbar-brand" href="#">Elizabeth Lank</a>
+    <nav class="navbar navbar-expand-md navbar-light">
+      <a class="navbar-brand" href="index.html">Michael Greig</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -25,27 +25,16 @@
       <!-- N.B. added nowrap style below to avoid navbar spilling onto two lines -->
         <ul class="navbar-nav mr-auto" style="width:auto;white-space: nowrap;">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About Me</a>
+            <a class="nav-link" href="about-me.html">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">What I Do</a>
+            <a class="nav-link" href="what-i-do.html">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Publications</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
+            <a class="nav-link" href="publications.html">Blog</a>
           </li>
         </ul>
       </div>
@@ -54,9 +43,9 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1 class="display-3">Connecting Silos</h1>
-        <p>I help people and organisations to collaborate more effectively</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">What I Do &raquo;</a></p>
+        <h1 class="display-3">Michael Greig</h1>
+        <p>UX Designer. I apply new methodologies to old problems.</p>
+        <p><a class="btn btn-primary btn-lg" href="what-i-do.html" role="button">What I Do &raquo;</a></p>
       </div>
     </div>
 
@@ -90,7 +79,7 @@
         </div>
         <!-- USPs -->
         <div class="col-md-6 mb-3">
-          <div class="card bg-info" style="color: white;">
+          <div class="card bg-info text-light">
             <div class="card-body">
               <h2 class="card-title">A bit about me...</h2>
                 <ul>
@@ -99,22 +88,31 @@
                   <li>Something else</li>
                   <li>Something else</li>
                 </ul>
-              <p><a class="btn btn-secondary" href="#" role="button">Learn more &raquo;</a></p>
+              <p><a class="btn btn-secondary" href="about-me.html" role="button">Learn more &raquo;</a></p>
             </div>
         </div>
       </div>
     </div>
-    <div class="row">
+    <div id="questions-card" class="row">
       <div class="col-12">
-        <h3>Are you grappling with one of the following questions?</h3>
-          <ul>
-            <li>How can we save costs by eliminating the organisational ‘silos’ that often lead to expensive
+        <div class="card bg-light">
+          <div class="card-body">
+            <h3 class="card-title"> Are you grappling with one of the following questions?</h3>
+            <ul class="mb-3">
+              <li>How can we save costs by eliminating the organisational ‘silos’ that often lead to expensive
   reinvention of the wheel?</li>
-            <li>How can we make cross-boundary working effective – both within and across organisations?</li>
-          </ul>
+              <li>How can we make cross-boundary working effective – both within and across organisations?</li>
+              <li>How do we establish more collaborative ways of working?</li>
+              <li>How can we ‘know what we know’ and put that knowledge to work to achieve our goals?</li>
+              <li>How can we engage our people to embrace organisational change enthusiastically?</li>
+            </ul>
+            <a id="questions-title" href="contact.html">Contact me</a>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
+  </div> <!--Container-->
+
 
     <!-- Sticky footer -->
     <footer class="footer">
@@ -132,5 +130,6 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

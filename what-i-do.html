@@ -17,65 +17,61 @@
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="navbar-custom">
-      <a class="navbar-brand" href="#">Elizabeth Lank</a>
+      <a class="navbar-brand" href="index.html">Elizabeth Lank</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
       <!-- N.B. added nowrap style below to avoid navbar spilling onto two lines -->
         <ul class="navbar-nav mr-auto" style="width:auto;white-space: nowrap;">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about-me.html">About Me</a>
+          </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="what-i-do.html">What I Do<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About Me</a>
+            <a class="nav-link" href="publications.html">Publications</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">What I Do</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Publications</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
-
 
 <div class="container mt-5 mb-5">
   <h1 class="mb-3">What I Do</h1>
     <p class="lead">I focus on the challenge of connecting organisational silos.</p>
   <div class="row">
     <div class="col-4">
-      <div class="list-group" id="list-tab" role="tablist">
-        <a class="list-group-item list-group-item-action active" id="list-facilitate-list" data-toggle="list" href="#list-facilitate" role="tab" aria-controls="facilitate">Facilitating</a>
-        <a class="list-group-item list-group-item-action" id="list-coach-list" data-toggle="list" href="#list-coach" role="tab" aria-controls="coach">Coaching</a>
-        <a class="list-group-item list-group-item-action" id="list-advise-list" data-toggle="list" href="#list-advise" role="tab" aria-controls="advise">Advising</a>
-        <a class="list-group-item list-group-item-action" id="list-advise-list" data-toggle="list" href="#list-consortiums" role="tab" aria-controls="consortiums">Consortiums</a>
+      <div class="list-group" id="list-tab">
+        <a class="list-group-item list-group-item-action" style="pointer-events: none" href="#list-facilitate">Facilitating</a>
+        <a class="list-group-item list-group-item-action" style="pointer-events: none" href="#list-coach">Coaching</a>
+        <a class="list-group-item list-group-item-action" style="pointer-events: none" href="#list-advise">Advising</a>
+        <a class="list-group-item list-group-item-action" style="pointer-events: none" href="#list-consortiums">Consortiums</a>
       </div>
     </div>
     <div class="col-8">
-      <div class="tab-content" id="nav-tabContent">
-        <div class="tab-pane fade show active" id="list-facilitate" role="tabpanel" aria-labelledby="list-facilitate-list">I run workshops on the topic of collaborative working and transformational change as part of leadership development  programmes or other educational programmes.</div>
-        <div class="tab-pane fade" id="list-coach" role="tabpanel" aria-labelledby="list-coach-list">I often act as an organisational coach, sharing the lessons learned from my years of practical experience, in order to help my clients to save time and effort and avoid common pitfalls. I work with leaders and also with the change agents who influence and support these leaders. </div>
-        <div class="tab-pane fade" id="list-advise" role="tabpanel" aria-labelledby="list-advise-list">...</div>
-        <div class="tab-pane fade" id="list-consortiums" role="tabpanel" aria-labelledby="list-consortiums-list">Another aspect of my portfolio is designing and facilitating consortium learning programmes, where a number of different organisations learn from each other's experience.   </div>
+      <div data-spy="scroll" data-target="#list-tab" data-offset="0" class="scrollspy">
+        <h4 id="list-facilitate">Facilitating</h4>
+        <p>I run workshops on the topic of collaborative working and transformational change as part of leadership development  programmes or other educational programmes.</p>
+        <h4 id="list-coach">Coaching</h4>
+        <p>I often act as an organisational coach, sharing the lessons learned from my years of practical experience, in order to help my clients to save time and effort and avoid common pitfalls. I work with leaders and also with the change agents who influence and support these leaders. </p>
+        <h4 id="list-advise">Advising</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id dui ut elit condimentum ullamcorper. Vivamus finibus et lectus quis hendrerit. Aenean venenatis sem nunc, ac aliquet sem vehicula vitae. Aenean lorem velit, eleifend non tincidunt vitae, convallis vel elit. Pellentesque convallis sodales ullamcorper. </p>
+        <h4 id="list-consortiums">Consortiums</h4>
+        <p>Another aspect of my portfolio is designing and facilitating consortium learning programmes, where a number of different organisations learn from each other's experience.   </p>
       </div>
     </div>
   </div>
 </div>
 
 <div id="carouselExampleIndicators" class="container carousel slide" data-ride="carousel">
+  <h2 class="mb-5">Me in action...</h2>
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
